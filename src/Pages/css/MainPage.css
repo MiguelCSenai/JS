@@ -1,0 +1,74 @@
+.App-header{
+
+    height: 100%;
+  
+  }
+  
+  table{
+  
+    margin:auto 0px;
+    height: 250px;
+    width: 1200px;
+    border: 0.5px solid black;
+    border-collapse: collapse;
+    box-shadow: 7px 8px 50px 0px rgba(189, 75, 160, 0.521);
+    margin-top: 300px;
+
+  }
+  
+  td{
+  
+    border: 0.5px solid black;
+    padding: 5px;
+  
+  }
+  
+  .titulo{
+  
+    font-size: 1.5pc;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  
+  .num{
+  
+    width: 10%;
+    text-align: center;
+  
+  }
+  
+  .cinza{
+  
+    background-color: rgb(233, 233, 233);
+  
+  }
+  .branco{
+  
+    background-color: white;
+  
+  }
+  
+  .qt{
+  
+    width: 15%;
+    text-align: right;
+  
+  }
+  .sub{
+  
+    background-color: rgb(145, 145, 145);
+    color: white;
+    font-weight: bold;
+  
+  }
+  tbody{
+  
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .pr{
+  
+    text-align: right;
+  
+  }
