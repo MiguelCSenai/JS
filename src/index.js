@@ -3,15 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
-import PriceList from './Components/PriceListComponent.js';
-import Tabela from './Components/Tabela.js';
+import MainPage from './Pages/html/MainPage.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PriceList />
-    <br/><br/><br/>
-    <Tabela />
+    <MainPage />
   </React.StrictMode>
 );
 

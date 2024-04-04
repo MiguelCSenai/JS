@@ -7,7 +7,7 @@ let produto1 = {
     id: 1,
     qtde: 5,
     preco: 10.00,
-    total: (produto1.preco * produto1.qtde)
+    total: 0
 
 }
 let produto2 = {
@@ -15,7 +15,7 @@ let produto2 = {
     id: 2,
     qtde: 3,
     preco: 35.00,
-    total: (produto2.preco * produto2.qtde)
+    total: 0
 
 }
 let produto3 = {
@@ -23,17 +23,22 @@ let produto3 = {
     id: 3,
     qtde: 4,
     preco: 41.00,
-    total: (produto3.preco * produto3.qtde)
+    total: 0
 
 }
 let produtoSomas = {
 
     qtde: (produto1.qtde+produto2.qtde+produto3.qtde),
     preco: (produto1.preco+produto2.preco+produto3.preco),
-    total: (produto1.total+produto2.total+produto3.total)
+    total: 0
 
 }
 
+produto1.total = (produto1.preco * produto1.qtde);
+produto2.total = (produto2.preco * produto2.qtde);
+produto3.total = (produto3.preco * produto3.qtde);
+
+produtoSomas.total = (produto1.total+produto2.total+produto3.total);
 
     return (
       <>
