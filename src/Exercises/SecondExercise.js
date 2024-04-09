@@ -31,23 +31,28 @@ function SecondExercise() {
     return (
       <>
 
-        <h2>Execicio 2</h2>
-        <br/>
+        <div className="body">
+
+            <h2>Execicio 2</h2>
+            <br/>
         
-        <div class="bigcontainer">
+            <div class="bigcontainer">
         
-        <div class="container reddit-mono-fonte">
-        <label>Nome:</label><input type="text" name="name" id="nome" onChange={alterarNome}/>
-        <label>Salario atual:</label><input type="number" name="payment" id="salario" onChange={alterarSalario}/>
-        <label>Reajuste(%)</label><input type="number" name="payment" id="salario" onChange={alterarReajuste}/>
-        </div>
-        <div class="container2 reddit-mono-fonte">
-        Nome: {nome}<br/>
-        Salario: {salario}<br/>
-        <br/>Novo Salario: {novo_salario}
-        </div>
+                <div class="container reddit-mono-fonte">
+                    <label>Nome:</label><input type="text" name="name" id="nome" onChange={alterarNome}/>
+                    <label>Salario atual:</label><input type="number" name="payment" id="salario" onChange={alterarSalario} disabled={!nome}/>
+                    <label>Reajuste(%)</label><input type="number" name="payment" id="salario" onChange={alterarReajuste}/>
+                </div>
+                <div class="container2 reddit-mono-fonte">
+                    Nome: {nome}<br/>
+                    Salario: {salario}<br/>
+                    <br/>Novo Salario: {novo_salario}
+                </div>
+
+            </div>
 
         </div>
+        
       </>
     );
   }

@@ -1,3 +1,5 @@
+import "./SecondExercise.css"
+
 function FirstExercise() {
 
     let velocidade = 10;
@@ -8,11 +10,18 @@ function FirstExercise() {
     return (
       <>
 
-        <h2>Execicio 1</h2>
-        <br/>
+          <div className="body">
 
-        O resultado é {resultado}
+            <h2>Execicio 1</h2>
+            <br/>
+            
+            <div className="bigcontainer">
+
+                <h1>O resultado é {resultado}</h1>
+
+            </div>
       
+          </div>
       </>
     );
   }
