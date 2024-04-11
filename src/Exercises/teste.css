@@ -1,0 +1,44 @@
+.body{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cardHeader{
+
+    background-color: #a3a3a3;
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+
+}
+.cardBody{
+
+    background: #cccccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.card{
+
+    width: 80%;
+    margin-top: 10%;
+
+}
+
+@media(max-width: 768px){
+
+    .card{
+
+        width: 100%;
+        margin-top: 0;
+
+    }
+
+}

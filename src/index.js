@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
-import MainPage from './Pages/html/MainPage.js';
+import FifthExercise from './Exercises/teste';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MainPage />
+      <FifthExercise/>
   </React.StrictMode>
 );
 

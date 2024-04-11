@@ -5,6 +5,7 @@ import FirstExercise from '../../Exercises/FirstExercise';
 import SecondExercise from '../../Exercises/SecondExercise';
 import ThirdExercise from '../../Exercises/ThirdExercise';
 import FourthExercise from '../../Exercises/FourthExercise';
+import FifthExercise from '../../Exercises/FifthExercise'
 
 function MainPage() {
   
@@ -19,6 +20,8 @@ root.render(
     <ThirdExercise/>
     <br/><br/><br/>
     <FourthExercise/>
+    <br/><br/><br/>
+    <FifthExercise/>
   </React.StrictMode>
 );
 
