@@ -5,12 +5,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 import FifthExercise from './Exercises/FifthExercise';
 import SixthExercise from './Exercises/SixthExercise';
+import SeventhExercise from './Exercises/SeventhExercise';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <FifthExercise/>
       <SixthExercise/>
+      <SeventhExercise/>
   </React.StrictMode>
 );
 

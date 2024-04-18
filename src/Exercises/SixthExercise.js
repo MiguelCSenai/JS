@@ -3,6 +3,7 @@ import "./FifthExercise.css"
 import Form from 'react-bootstrap/Form';
 import { Alert, Button } from "react-bootstrap";
 import { useState } from "react";
+import Table from 'react-bootstrap/Table';
 
 function SixthExercise() {
 
@@ -74,7 +75,40 @@ function SixthExercise() {
                                 
                 </Alert>
 
-                Rua: {endereco.logradouro}
+                <Table className="tb">
+
+                    <tr>
+
+                        <th>Rua:</th> <td>{endereco.logradouro}</td>
+
+                    </tr>
+                    <tr>
+
+                        <th>Bairro:</th> <td>{endereco.bairro}</td>
+
+                    </tr>
+                    <tr>
+
+                        <th>Estado:</th> <td>{endereco.uf}</td>
+
+                    </tr>
+                    <tr>
+
+                        <th>Cidade:</th> <td>{endereco.localidade}</td>
+
+                    </tr>
+                    <tr>
+
+                        <th>DDD:</th> <td>( {endereco.ddd} ) x xxxx-xxxx</td>
+
+                    </tr>
+
+                </Table>
+                     
+                     
+                     
+                     
+                     
 
             </div>
       
